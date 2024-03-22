@@ -1,0 +1,240 @@
+* {
+    margin: 0 auto;
+    font-family: 'Montserrat';
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Italic.ttf);
+}
+@font-face {
+    font-family: '1';
+    src: url(../fonts/Montserrat-Black.ttf);
+}
+@font-face {
+    font-family: '2';
+    src: url(../fonts/PFCentroSansPro-Light.ttf);
+}
+@font-face {
+    font-family: '3';
+    src: url(../fonts/PFCentroSansPro-Black.ttf);
+}
+body {
+    background-color: #DBE5FF;
+}
+.header img {
+    width: 200px;
+    height: 50px;
+    margin-top: 40px;
+}
+header {
+    display: flex;
+    font-size: 18px;
+    background-color: #eeeeee;
+    font-family: '1';
+}
+.header a {
+    font-family: '2';
+}
+.menu {
+    display: flex;
+}
+.menu a {
+    margin: 5px;
+    margin-top: 70px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: "2";
+}
+.menu a:hover {
+    border-bottom: 1px solid;
+    border-color: rgb(0, 0, 0);
+}
+.zag h3{
+    font-size: 24px;
+    text-align: center;
+    padding: 25px 0px;
+    color: rgb(0, 0, 0);
+    font-family: "3";
+}
+.zag h4 {
+    font-size: 16px;
+    text-align: center;
+    padding: 25px 0px;
+    color: rgb(0, 0, 0);
+    font-family: "3";
+}
+.zag a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.form {
+    text-align: center;
+}
+.form form {
+    text-align: center;
+}
+.form input{
+    padding: 10px;
+    padding-right: 300px;
+    background-color: #D9D9D9;
+    border: 1px solid;
+    margin: 5px;
+}
+.logo_vxod img{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#vxod {
+    margin: 0 auto;
+    text-align: center;
+}
+#fvxod {
+    padding-right:100px
+}
+#svxod {
+    padding: 7px;
+}
+#vxod input {
+    padding: 5px 15px;
+    background-color: #09385a;
+    color: #fff;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.exit input{
+    padding: 5px 20px;
+    background-color: #09385a;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.menu {
+    font-size: 28px;
+}
+.good img {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.exit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.good {
+width: 500px;
+text-align: center;
+margin: 100px;
+}
+.name {
+    font-size: 24px;
+}
+.name2 {
+    font-size: 20px;
+}
+.topic a{
+    font-size: 20px;
+    color: blue;
+}
+.info a {
+    font-size: 20px;
+    color: blue;
+}
+.price {
+    font-weight: bold;
+    font-size: 20px;
+}
+.topics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.topic {
+    text-align: center;
+    margin: 60px;
+    background-color: rgb(184, 184, 184);
+    padding: 20px;
+}
+.footer {
+    display: flex;
+    font-size: 18px;
+    background-color: #eeeeee;
+    font-family: '1';
+}
+.flex {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.reklama{
+    width: 600px;
+    text-align: center;
+}
+.reklama-flex {
+    font-size: 20px;
+    margin: 40px;
+    display: flex;
+}
+.block {
+    margin: 20px;
+}
+.block h3 {
+    text-align: center;
+}
+.goods-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.about {
+    width: 800px;
+}
+.timeg {
+    text-align: center;
+    margin: 20px;
+}
+.time {
+    font-size: 12px;
+}
+.info2 {
+    text-align: center;
+}
+.map {
+    margin: 20px;
+}
+.topic_lk {
+    text-align: center;
+    margin: 60px;
+    background-color: rgb(184, 184, 184);
+    padding: 20px;
+}
+.topic_lk a {
+    font-size: 20px;
+    color: blue;
+}
+.form_lk {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.block {
+    margin: 50px;
+}
+.block a {
+    color: blue;
+    font-size: 18px;
+}
+.quests {
+    margin: 30px;
+}
